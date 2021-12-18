@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;800;900&display=swap');
 
+a {
+    text-decoration: none;
+    color: whitesmoke
+}
+
 html {
     font-family: Montserrat, sans-serif
 }
@@ -73,7 +78,7 @@ p {
     width: 350px;
     height: 80px;
     border-radius: 50px;
-    background-color: coral;
+    background-color: rgb(30, 173, 138);
     text-align: center;
     font-size: 28px;
     padding-top: 30px;
@@ -87,7 +92,7 @@ p {
 }
 
 .button:active {
-    background-color: indigo;
+    background-color: silver;
 }
 
 .logo {
@@ -148,8 +153,27 @@ h2 {
 
 .recent-project-card {
     width: 1000px;
-    height: 500px;
+    height: 1000px;
     box-shadow: 5px 5px 20px lightgrey;
     display: flex;
     margin: 10px;
+}
+
+.mainimage {
+    height: 660px;
+    width: 1000px;
+    display: flex;
+    margin: 60px;
+    margin-top: 90px;
+}
+
+h3 {
+    font-size: 20px;
+    text-align: center;
+    display: flex;
+}
+
+.contact-text {
+    margin: 50px;
+    text-align: center;
 }

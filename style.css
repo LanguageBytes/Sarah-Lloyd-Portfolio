@@ -161,6 +161,11 @@ h2 {
     margin: 10px;
 }
 
+.project-card {
+    text-align: center;
+    margin: 30px;
+}
+
 .mainimage {
     height: 660px;
     width: 1000px;

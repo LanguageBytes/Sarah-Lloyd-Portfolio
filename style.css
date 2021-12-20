@@ -4,7 +4,7 @@
 a {
     text-decoration: none;
     color: whitesmoke;
-    display: -webkit-inline-flex;         
+    display: flex;   
 }
 
 html {
@@ -184,6 +184,7 @@ h4 {
     font-size: 40px;
     margin: 500px;
 }
+
 .contact-text {
     margin: 20px;
     text-align: center;
@@ -195,6 +196,8 @@ h4 {
     text-align: center;
     color:white;
 }
+
+
 
 @media only screen and (max-width: 1000px) {
     .project-container1 {
@@ -213,7 +216,7 @@ h4 {
 
 @media only screen and (max-width: 1000px) { 
        html {
-    width: 100%;
+    width: 500%;
     }
 }
 

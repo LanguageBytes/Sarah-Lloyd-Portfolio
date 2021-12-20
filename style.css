@@ -70,6 +70,7 @@ p {
      
     display: flex;
     height:100%;
+    width:100%;
     justify-content: space-between;
     align-items: center;
 }
@@ -170,9 +171,10 @@ h2 {
 }
 
 .mainimage {
-    height: 800px;
-    width: 990px;
+
     display: flex;
+    height: 5000%;
+    width: 6188%;
     margin: 70px;
     margin-top: 90px;
     margin-left: 120px;
@@ -202,17 +204,17 @@ h4 {
 }
 
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1200px) {
     .project-container1, .project-container2 {
     display: flex;
     flex-wrap: wrap;
     }
 }
 
-@media screen and (max-width: 1000px) { 
+@media screen and (max-width: 1200px) { 
       html {
           flex-direction: column;
-          width: 220%;
+          width: 300%;
           display: flex;
           flex-wrap: wrap;
           align-items: center;

@@ -195,3 +195,25 @@ h4 {
     text-align: center;
     color:white;
 }
+
+@media only screen and (max-width: 1000px) {
+    .project-container1 {
+    display: flex;
+    flex-wrap: wrap;
+    }
+}
+
+@media only screen and (max-width: 1000px) { 
+    .project-container2 {
+    display: flex;
+    flex-wrap: wrap;
+    }
+}
+
+
+@media only screen and (max-width: 1000px) { 
+       html {
+    width: 100%;
+    }
+}
+

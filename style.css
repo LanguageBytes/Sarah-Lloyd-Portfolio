@@ -9,6 +9,7 @@ a {
 
 html {
     font-family: Montserrat, sans-serif;
+    width:100%;
 }
 
 section {
@@ -144,6 +145,7 @@ h2 {
 }
 
 .project-container1 {
+
     display: flex;
     justify-content: space-around;
 }

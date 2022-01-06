@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;800;900&display=swap');
 
-html,body {
+html, body {
     font-family: Montserrat, sans-serif;
     width: 100%;
 }
@@ -211,14 +211,12 @@ h4 {
     }
 }
 
-@media screen and (max-width: 1200px) { 
+@media screen and (max-width: 600px) { 
       html {
           flex-direction: column;
           width: 300%;
           display: flex;
           flex-wrap: wrap;
           align-items: center;
-          margin: auto;
-}
       }
-
+    }

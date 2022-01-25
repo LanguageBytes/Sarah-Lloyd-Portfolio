@@ -1,7 +1,7 @@
 # <p align = "center"> Portfolio </p>
 
 <p align = "center"> 
-<img src= "images/screenshot.gif" /> 
+<img src="Images/screenshot.gif" /> 
 </p>
 
 Link to deployed site: https://languagebytes.github.io/Sarah-Lloyd-Portfolio/

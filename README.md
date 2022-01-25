@@ -1,6 +1,8 @@
 # <p align = "center"> Portfolio </p>
 
-<p align = "center"> <img src="images/screenshot.gif"/> </p>
+<p align = "center"> 
+<img src= "images/screenshot.gif" /> 
+</p>
 
 Link to deployed site: https://languagebytes.github.io/Sarah-Lloyd-Portfolio/
 For this project, I created a portfolio using HTML and CSS. The page contains a hero section, an about me section, a projects section and a footer. On clicking on a project, the viewer should be directed to the github deployed site. I added in anchor tags to direct the user to the relevant section. When the social icons are clicked, the user should be directed to the relevant pages. As I work in Russia, I have attempted to create a Russian version of the page which on click will direct the user to this page in the footer section. 

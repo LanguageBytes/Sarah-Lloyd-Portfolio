@@ -186,7 +186,6 @@ h2 {
 }
 
 .project-container1 {
-
     display: flex;
     justify-content: space-around;
 }
@@ -197,8 +196,8 @@ h2 {
 }
 
 .recent-project-card {
-    width: 95%;
-    height: 95%;
+    width: 75%;
+    height: 75%;
     box-shadow: 5px 5px 20px lightgrey;
     display: flex;
 }

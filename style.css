@@ -5,14 +5,22 @@ html, body {
     width: 100%;
 }
 
-
 a {
     text-decoration: none;
-    color: whitesmoke;
-    display: flex;   
+    color:whitesmoke;
 }
 
+a .hero{
+    text-decoration: none;
+    display: flex; 
+    color: whitesmoke; 
+}
 
+a .footer{
+    text-decoration: none;
+    display: flex; 
+    color: whitesmoke; 
+}
 
 section {
     height:100%;
@@ -40,12 +48,13 @@ footer {
 nav {
     display: flex;
     justify-content: space-between;
+
 }
 
 ul {
     display:flex;
     list-style-type: none;
-    width: 500px;
+    width: 600px;
     justify-content: space-around;
     font-size: 30px;
     
@@ -53,7 +62,6 @@ ul {
 
 li.nav {
     width: 200px;
-    text-decoration:none;
     font-family: Montserrat, sans-serif
 }
 
@@ -134,6 +142,9 @@ h2 {
     justify-content: space-around;
 }
 
+.contact-text {
+    color:whitesmoke;
+}
 .profile-container {
     display:flex;
     align-items: center;
@@ -189,18 +200,7 @@ h3 {
 
 h4 {
     font-size: 40px;
-    margin: 500px;
-}
-
-.contact-text {
-    margin: 20px;
-    text-align: center;
-    color:white;
-}
-
-.contact-text2 {
-    margin-left: 720px;
-    text-align: center;
+    justify-content: space-around;
     color:white;
 }
 

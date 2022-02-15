@@ -6,8 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!--Adds a description when listed in google searches-->
     <meta name="description" content="Sarah Lloyd - Portfolio">
-    <script src="https://kit.fontawesome.com/761e4c8e5c.js" crossorigin="anonymous"></script>
     <!-- Links to CSS Files -->
+    
+    <script src="https://kit.fontawesome.com/761e4c8e5c.js" crossorigin="anonymous"></script>
     <link rel= "stylesheet" href="reset.css">
     <link rel= "stylesheet" href="style.css">
 
@@ -65,13 +66,35 @@
     <h2> Latest Project </h2>
     <p> Junior Dev Hub<br> <br></p> 
     
+<!-- Carousel -->
 
-    <div class="project-container1">
-        <a href="https://github.com/LanguageBytes/Junior-Dev-Job-Search-Engine" class = "recent-project-card">
-          <img class="recent-project-card2 recent-project-image" src="Images/juniordev.jpg" alt="Junior-Dev-Hub"> 
-        </a>
+  <div class="carousel-container">
+      <div class="slider">
+          <div class="slider-item" style="background-color: rgb(255, 255, 255);"></div>
+          <div class="slider-item active" style="background-color: rgb(255, 255, 255);"></div>
+          <div class="slider-item" style="background-color: rgb(255, 255, 255);"></div>
+          <div class="slider-item" style="background-color:rgb(255, 255, 255);">
+          <img class="carousel-image" src="Images/project1.jpg"> <a href="https://github.com/LanguageBytes/Junior-Dev-Job-Search-Engine"></a></div>
+          <div class="slider-item" style="background-color:rgb(255, 255, 255);"></div>
+          <ol class="slide-indicators">
+              <li class="slide-indicator"></li>
+              <li class="slide-indicator"></li>
+              <li class="slide-indicator"></li>
+              <li class="slide-indicator"></li>
+              <li class="slide-indicator"></li>
+          </ol>
+          <span class="slider-control-prev" role="button">
+              <img aria-hidden="true" src="Images/prev.svg" alt="Previous Slide Button">
+          </span>
+          <span class="slider-control-next" role="button">
+              <img aria-hidden="true" src="images/next.svg" alt="Next Slide Button">
+          </span>
       </div>
+  </div>
+</section>
 
+<section>
+  
    <h2> Portfolio </h2>
    <div class="project-container2">
      <div class = "project-card">  </div>

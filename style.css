@@ -275,7 +275,7 @@ color:white;
 .carousel-cell1 {
   width: 1000px;
   height: 600px;
-  margin-right:300px;
+  margin-right:200px;
   
   /* flex-box, center image in cell */
   display: -webkit-box;

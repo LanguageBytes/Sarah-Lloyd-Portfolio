@@ -399,7 +399,6 @@ h2 {
     width:300px;
     height:500px;
     box-shadow: 5px 5px 20px lightgrey;
-    display: flex;
 }
 
 .project-container1 {
@@ -422,14 +421,17 @@ h2 {
 
 .project-image {
 
-  margin: 24px;
-  width: 240px;
-  height: 260px;
+  margin: 28px;
+  width: 80%;
+  height: 40%;
+  text-align: center;
 
 }
 
+
 .project-text {
   margin: 0px;
+  text-align: center;
 }
 
 hr {
@@ -448,6 +450,7 @@ h3 {
     font-size: 20px;
     text-align: center;
     display: flex;
+    margin-left: 25px;
 }
 
 h4 {

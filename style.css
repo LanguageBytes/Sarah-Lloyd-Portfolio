@@ -269,13 +269,14 @@ color:white;
   }
 
 .carousel {
-  background: rgb(29, 28, 28);
+  background: rgb(27, 27, 27);
 }
 
 .carousel-cell1 {
   width: 1000px;
   height: 600px;
   margin-right:100px;
+  padding: 10px;
   
   /* flex-box, center image in cell */
   display: -webkit-box;
@@ -505,3 +506,11 @@ only screen and (min-device-pixel-ratio: 1.5){
     }
 }
 
+@media only screen and (max-width: 1000px) {
+    .profile-pic {
+        border-radius: 300px;
+        height: 200px;
+        width: 200px;
+        margin-left: 40px;
+    }
+}

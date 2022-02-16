@@ -419,9 +419,22 @@ h2 {
     display: flex;
 }
 
-.project-card {
-    text-align: center;
-    margin: 30px;
+
+.project-image {
+
+  margin: 24px;
+  width: 240px;
+  height: 260px;
+
+}
+
+.project-text {
+  margin: 0px;
+}
+
+hr {
+  margin-left: 20px;
+  margin-right: 20px;
 }
 
 img {

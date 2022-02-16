@@ -7,9 +7,8 @@
     <!--Adds a description when listed in google searches-->
     <meta name="description" content="Sarah Lloyd - Portfolio">
     <!-- Links to CSS Files -->
-    
-    <script src="https://kit.fontawesome.com/761e4c8e5c.js" crossorigin="anonymous"></script>
     <link rel= "stylesheet" href="reset.css">
+    <link rel="stylesheet" href="https://npmcdn.com/flickity@2/dist/flickity.css" media="screen">
     <link rel= "stylesheet" href="style.css">
 
     <title>Portfolio</title>
@@ -66,33 +65,28 @@
     <h2> Latest Project </h2>
     <p> Junior Dev Hub<br> <br></p> 
     
+    
 <!-- Carousel -->
 
-  <div class="carousel-container">
-      <div class="slider">
-          <div class="slider-item" style="background-color: rgb(255, 255, 255);"></div>
-          <div class="slider-item active" style="background-color: rgb(255, 255, 255);"></div>
-          <div class="slider-item" style="background-color: rgb(255, 255, 255);"></div>
-          <div class="slider-item" style="background-color:rgb(255, 255, 255);">
-          <img class="carousel-image" src="Images/project1.jpg"> <a href="https://github.com/LanguageBytes/Junior-Dev-Job-Search-Engine"></a></div>
-          <div class="slider-item" style="background-color:rgb(255, 255, 255);"></div>
-          <ol class="slide-indicators">
-              <li class="slide-indicator"></li>
-              <li class="slide-indicator"></li>
-              <li class="slide-indicator"></li>
-              <li class="slide-indicator"></li>
-              <li class="slide-indicator"></li>
-          </ol>
-          <span class="slider-control-prev" role="button">
-              <img aria-hidden="true" src="Images/prev.svg" alt="Previous Slide Button">
-          </span>
-          <span class="slider-control-next" role="button">
-              <img aria-hidden="true" src="images/next.svg" alt="Next Slide Button">
-          </span>
-      </div>
+<!-- Flickity HTML init -->
+
+<div class="carousel js-flickity">
+  <div class="carousel-cell">
+    <img src="Images/project1img.jpg" alt="" />
   </div>
+  <div class="carousel-cell">
+    <img src="Images/techHirers.png" alt="" />
+  </div>
+  <div class="carousel-cell">
+    <img src="Images/results-page.png" alt="" />
+  </div>
+  <div class="carousel-cell">
+    <img src="Images/desc.jpg" />
+  </div>
+
 </section>
 
+<!-- Portfolio -->
 <section>
   
    <h2> Portfolio </h2>
@@ -113,5 +107,7 @@
   </p>
   </footer>
 </div>
+<script src="https://npmcdn.com/flickity@2/dist/flickity.pkgd.js"></script>
   <script src="script.js"></script>
+  <script src="https://kit.fontawesome.com/761e4c8e5c.js" crossorigin="anonymous"></script>
 </body>

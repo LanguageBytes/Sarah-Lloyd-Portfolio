@@ -363,7 +363,7 @@ color:white;
 }
 
 .sub-sect {
-    background-color: snow;
+    background-color: rgb(255, 255, 255);
     justify-content: space-around;
     display: flex;
     padding: 90px;

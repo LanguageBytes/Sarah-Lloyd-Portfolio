@@ -275,7 +275,7 @@ color:white;
 .carousel-cell1 {
   width: 1000px;
   height: 600px;
-  margin-right:200px;
+  margin-right:100px;
   
   /* flex-box, center image in cell */
   display: -webkit-box;
@@ -310,15 +310,15 @@ color:white;
           filter: none;
 }
 
-@media screen and ( min-width: 768px ) {
-  .carousel-cell {
+@media screen and ( max-width: 768px ) {
+  .carousel-cell1 {
     height: 400px;
   }
 }
 
-@media screen and ( min-width: 960px ) {
-  .carousel-cell {
-    width: 40%;
+@media screen and ( max-width: 960px ) {
+  .carousel-cell1 {
+    width: 80%;
   }
 }
 

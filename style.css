@@ -181,6 +181,13 @@ color:white;
 
 /* Profile and Projects */
 
+.description {
+  padding-left: 20%;
+  padding-right: 20%;
+  text-align: center;
+}
+
+
 .sub-sect {
   background-color: rgb(255, 255, 255);
   justify-content: space-around;

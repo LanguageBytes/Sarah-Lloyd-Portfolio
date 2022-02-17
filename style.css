@@ -25,6 +25,18 @@ a .footer{
     color: whitesmoke; 
 }
 
+.wrapper {
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+.wrapper-center {
+  padding-left: 33%;
+  padding-right: 33%;
+  display:flex;
+  justify-content: space-between;
+}
+
 /* Sections */
 section {
     height:100%;

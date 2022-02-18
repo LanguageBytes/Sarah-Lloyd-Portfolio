@@ -255,7 +255,7 @@ margin: 28px;
 width: 80%;
 height: 40%;
 text-align: center;
-
+box-shadow: 3px 3px 10px rgb(66, 66, 66);
 }
 
 
@@ -416,7 +416,7 @@ img {
   }
 
 .carousel {
-  background: rgb(5, 0, 17);
+  background: rgb(255, 255, 255);
 }
 
 .carousel-cell1 {
@@ -447,6 +447,10 @@ img {
 
   -webkit-transition: opacity 0.3s, -webkit-transform 0.3s, transform 0.3s, -webkit-filter 0.3s, filter 0.3s;
           transition: opacity 0.3s, transform 0.3s, filter 0.3s;
+}
+
+.box-shadow {
+  box-shadow: 5px 3px 10px rgb(48, 47, 47);
 }
 
 /* brighten selected image */

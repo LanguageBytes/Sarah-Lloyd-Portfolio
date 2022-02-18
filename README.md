@@ -1,8 +1,16 @@
 # <p align = "center"> Portfolio </p>
 
+
+## Updated Version
+<p align = "center"> 
+<img src="Images/screenshot2.gif" /> 
+</p>
+
+## Original Version
 <p align = "center"> 
 <img src="Images/screenshot.gif" /> 
 </p>
+
 
 Link to deployed site: https://languagebytes.github.io/Sarah-Lloyd-Portfolio/
 

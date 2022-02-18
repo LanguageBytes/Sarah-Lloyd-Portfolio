@@ -4,7 +4,7 @@
 ## <p align = "center"> Updated Version </p>
 
 <p align = "center"> 
-<img src="Images/screenshot3.gif"/> 
+<img src="Images/screenshot2.gif"/> 
 </p>
 
 ## <p align = "center">  Original Version </p>

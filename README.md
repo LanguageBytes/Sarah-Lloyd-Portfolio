@@ -1,14 +1,15 @@
 # <p align = "center"> Portfolio </p>
 
 
-## Updated Version
+## <p align = "center"> Updated Version </p>
+
 <p align = "center"> 
-<img src="Images/screenshot2.gif" /> 
+<img src="Images/screenshot2.gif"/> 
 </p>
 
-## Original Version
+## <p align = "center">  Original Version </p>
 <p align = "center"> 
-<img src="Images/screenshot.gif" /> 
+<img src="Images/screenshot.gif"/> 
 </p>
 
 

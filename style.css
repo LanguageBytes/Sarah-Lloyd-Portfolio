@@ -159,18 +159,18 @@ color:white;
     margin-left: 5%;
     margin-top: 5%;
     align-items: center;
-    width: 55%;
+    width: 40%;
     appearance: none;
-    background-image: radial-gradient(100% 100% at 80% 0, #f1c342 0, #dd5f24 70%);
+    background-image: radial-gradient(100% 100% at 80% 0, #fcda7e 0, #db6e3c 70%);
     border: 0;
-    border-radius: 20px;
-    box-shadow: rgb(12, 52, 75) 5px 4px 7px;
+    border-radius: 7px;
+    box-shadow: rgb(26, 112, 161) 5px 4px 7px;
     box-sizing: border-box;
     color: rgb(0, 0, 0);
     cursor: pointer;
     display: inline-flex;
     font-family: montserrat;
-    height: 70px;
+    height: 60px;
     justify-content: center;
     line-height: 1;
     list-style: none;
@@ -186,7 +186,7 @@ color:white;
     touch-action: manipulation;
     white-space: nowrap;
     will-change: box-shadow,transform;
-    font-size: 24px;
+    font-size: 20px;
   }
   
   .btn:focus {

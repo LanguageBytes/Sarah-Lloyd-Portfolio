@@ -13,10 +13,12 @@ a {
     color:whitesmoke;
 }
 
-a .hero{
+a.hero1{
     text-decoration: none;
     display: flex; 
-    color: whitesmoke; 
+    font-size: 20px;
+    color: rgb(0, 0, 0); 
+    background-image: none;
 }
 
 a .footer{
@@ -33,16 +35,16 @@ section {
 }
 
 .hero {
-    background-image: url("Assets/Images/cover-image8.jpg");
-    background-size: 500%;
+    background-image: url("Images/cover-image12.webp");
+    background-size: 100%;
     background-repeat: no-repeat;
-    color: whitesmoke;
+    color: rgb(0, 0, 0);
     font-size: 30px;
 }
 
 footer {
     height: 100%;
-    background-image: url("Assets/Images/cover-image8.jpg");
+    background-image: url("Images/cover-image8.jpg");
     background-size: 500%;
     background-repeat: no-repeat;
     padding-bottom: 60px;
@@ -50,15 +52,18 @@ footer {
 
 /* Nav Bar */
 
+
 nav {
     display: flex;
     justify-content: space-between;
+    color:black;
 }
 
 ul {
   display:flex;
   list-style-type: none;
   width: 500px;
+  color:black;
   justify-content: space-around;
   font-size: 20px;
   
@@ -66,7 +71,8 @@ ul {
 
 li.nav {
   width: 200px;
-  font-family: Montserrat, sans-serif
+  color:black;
+  font-family: Montserrat, sans-serif;
 }
 
 /* Text Elements */
@@ -155,12 +161,12 @@ color:white;
     align-items: center;
     width: 55%;
     appearance: none;
-    background-image: radial-gradient(100% 100% at 80% 0, #00ffea 0, #00ffc8 70%);
+    background-image: radial-gradient(100% 100% at 80% 0, #f1c342 0, #dd5f24 70%);
     border: 0;
     border-radius: 20px;
-    box-shadow: rgb(100, 50, 129) 5px 4px 7px;
+    box-shadow: rgb(12, 52, 75) 5px 4px 7px;
     box-sizing: border-box;
-    color: rgb(5, 5, 5);
+    color: rgb(0, 0, 0);
     cursor: pointer;
     display: inline-flex;
     font-family: montserrat;
@@ -188,7 +194,7 @@ color:white;
   }
   
   .btn:hover {
-    box-shadow: rgba(255, 255, 255, 0.4) 0 4px 8px, #00f0f8 0 -3px 0 inset;
+    box-shadow: rgba(255, 255, 255, 0.4) 0 4px 8px, #27afe6 0 -3px 0 inset;
     transform: translateY(-2px);
   }
   
@@ -596,4 +602,15 @@ only screen and (min-device-pixel-ratio: 1.5){
     width: 400px;
     height: 300px;
   }
+}
+
+
+@media screen and ( max-width: 900px ) {
+.hero {
+  background-image: url("Images/cover-image12.webp");
+  background-size: 400%;
+  background-repeat: no-repeat;
+  color: rgb(0, 0, 0);
+  font-size: 30px;
+}
 }

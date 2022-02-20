@@ -24,7 +24,7 @@ a.hero1{
 a .footer{
     text-decoration: none;
     display: flex; 
-    color: whitesmoke; 
+    color: rgb(248, 233, 205); 
 }
 
 /* Sections */
@@ -44,7 +44,7 @@ section {
 
 footer {
     height: 100%;
-    background-image: url("Images/cover-image8.jpg");
+    background-color:#041725;
     background-size: 500%;
     background-repeat: no-repeat;
     padding-bottom: 60px;
@@ -56,7 +56,7 @@ footer {
 nav {
     display: flex;
     justify-content: space-between;
-    color:black;
+    color: rgb(4, 29, 46);
 }
 
 ul {
@@ -71,7 +71,7 @@ ul {
 
 li.nav {
   width: 200px;
-  color:black;
+  color: rgb(4, 29, 46);
   font-family: Montserrat, sans-serif;
 }
 
@@ -81,12 +81,14 @@ h1 {
     font-size: 75px;
     font-weight:600;
     margin-left: 20px;
+   color: rgb(4, 29, 46)
 }
 
 h2 {
   font-size: 40px;
   justify-content: center;
   display: flex;
+  color: rgb(4, 29, 46);
 }
 
 h3 {
@@ -94,6 +96,7 @@ h3 {
   text-align: center;
   display: flex;
   margin-left: 30px;
+  color: rgb(4, 29, 46);
 }
 
 h4 {
@@ -146,7 +149,7 @@ color:white;
 }
 
 .socials {
-    padding-bottom: 100px;
+    padding-bottom: 50px;
 }
 
 .junior-developer {
@@ -159,18 +162,18 @@ color:white;
     margin-left: 5%;
     margin-top: 5%;
     align-items: center;
-    width: 40%;
+    width: 41%;
     appearance: none;
-    background-image: radial-gradient(100% 100% at 80% 0, #fcda7e 0, #db6e3c 70%);
+    background-image: radial-gradient(100% 100% at 80% 0, #f1d997 0, #ff987e 70%);
     border: 0;
-    border-radius: 7px;
-    box-shadow: rgb(26, 112, 161) 5px 4px 7px;
+    border-radius: 8px;
+    box-shadow: rgb(253, 152, 68) 1px 3px 2px;
     box-sizing: border-box;
-    color: rgb(0, 0, 0);
+    color: rgb(0, 8, 14);
     cursor: pointer;
     display: inline-flex;
     font-family: montserrat;
-    height: 60px;
+    height: 65px;
     justify-content: center;
     line-height: 1;
     list-style: none;
@@ -190,16 +193,16 @@ color:white;
   }
   
   .btn:focus {
-    box-shadow: #913ce0 0 0 0 1.5px inset, rgba(45, 35, 66, .4) 0 2px 4px, rgba(45, 35, 66, .3) 0 7px 13px -3px, #e03c73 0 -3px 0 inset;
+    box-shadow: #082653 0 0 0 1.5px inset, rgba(45, 35, 66, .4) 0 2px 4px, rgba(45, 35, 66, .3) 0 7px 13px -3px, #3cace0 0 -3px 0 inset;
   }
   
   .btn:hover {
-    box-shadow: rgba(255, 255, 255, 0.4) 0 4px 8px, #27afe6 0 -3px 0 inset;
+    box-shadow: rgba(255, 255, 255, 0.4) 0 4px 8px, #237a9c 0 -3px 0 inset;
     transform: translateY(-2px);
   }
   
   .btn:active {
-    box-shadow: #3c4fe0 0 3px 7px inset;
+    box-shadow: #081d44 0 3px 7px inset;
     transform: translateY(2px);
   }
 
@@ -319,7 +322,7 @@ a .github-link-ru {
 }
 
 .contact-text {
-  color:whitesmoke;
+  color:rgb(241, 237, 229);;
 }
   
   /* Flickity (used for Carousel section) */

@@ -167,7 +167,7 @@ color:white;
     background-image: radial-gradient(100% 100% at 80% 0, #f1d997 0, #ff987e 70%);
     border: 0;
     border-radius: 8px;
-    box-shadow: rgb(253, 152, 68) 1px 3px 2px;
+    box-shadow: rgb(253, 152, 68) 1px 0px 0px;
     box-sizing: border-box;
     color: rgb(0, 8, 14);
     cursor: pointer;

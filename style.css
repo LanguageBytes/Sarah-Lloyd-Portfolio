@@ -1,5 +1,7 @@
 /* Importing Google Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital@1&display=swap');
 
 /*Element Styling */
 
@@ -16,8 +18,8 @@ a {
 a.hero1{
     text-decoration: none;
     display: flex; 
-    font-size: 20px;
-    color: rgb(0, 0, 0); 
+    font-size: 30px;
+    color: rgb(255, 255, 255); 
     background-image: none;
 }
 
@@ -35,10 +37,10 @@ section {
 }
 
 .hero {
-    background-image: url("Images/cover-image12.webp");
+    background-image: url("Images/low_poly_simple_mountain_landscape-wallpaper-1920x1080.jpg");
     background-size: 100%;
     background-repeat: no-repeat;
-    color: rgb(0, 0, 0);
+    color: rgb(243, 243, 243);
     font-size: 30px;
 }
 
@@ -65,23 +67,24 @@ ul {
   width: 500px;
   color:black;
   justify-content: space-around;
-  font-size: 20px;
+  font-size: 30px;
   
 }
 
 li.nav {
   width: 200px;
   color: rgb(4, 29, 46);
-  font-family: Montserrat, sans-serif;
+  font-family: caveat, sans-serif;
+  font-size: 30px;
 }
 
 /* Text Elements */
 
 h1 {
-    font-size: 75px;
+    font-size: 70px;
     font-weight:600;
     margin-left: 20px;
-   color: rgb(4, 29, 46)
+   color: rgb(196, 222, 240)
 }
 
 h2 {
@@ -89,6 +92,7 @@ h2 {
   justify-content: center;
   display: flex;
   color: rgb(4, 29, 46);
+  font-family: caveat;
 }
 
 h3 {
@@ -154,22 +158,23 @@ color:white;
 
 .junior-developer {
   font-size: 35px;
-  margin:20px;
+  margin: 20px;
+  font-family: montserrat;
 }
 /* Buttons */
 
   .btn {
-    margin-left: 5%;
+    margin-left: 4%;
     margin-top: 5%;
     align-items: center;
     width: 41%;
     appearance: none;
-    background-image: radial-gradient(100% 100% at 80% 0, #f1d997 0, #ff987e 70%);
+    background-image: radial-gradient(100% 100% at 80% 0, #b8ecf5 0, #eb666d 70%);
     border: 0;
     border-radius: 8px;
     box-shadow: rgb(253, 152, 68) 1px 0px 0px;
     box-sizing: border-box;
-    color: rgb(0, 8, 14);
+    color: rgb(32, 26, 26);
     cursor: pointer;
     display: inline-flex;
     font-family: montserrat;
@@ -189,7 +194,7 @@ color:white;
     touch-action: manipulation;
     white-space: nowrap;
     will-change: box-shadow,transform;
-    font-size: 20px;
+    font-size: 18px;
   }
   
   .btn:focus {
@@ -610,10 +615,10 @@ only screen and (min-device-pixel-ratio: 1.5){
 
 @media screen and ( max-width: 900px ) {
 .hero {
-  background-image: url("Images/cover-image12.webp");
-  background-size: 400%;
+  background-image: url("Images/low_poly_simple_mountain_landscape-wallpaper-1920x1080.jpg");
+  background-size: 200%;
   background-repeat: no-repeat;
-  color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
   font-size: 30px;
 }
 }

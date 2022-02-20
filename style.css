@@ -616,7 +616,7 @@ only screen and (min-device-pixel-ratio: 1.5){
 @media screen and ( max-width: 900px ) {
 .hero {
   background-image: url("Images/low_poly_simple_mountain_landscape-wallpaper-1920x1080.jpg");
-  background-size: 200%;
+  background-size: 300%;
   background-repeat: no-repeat;
   color: rgb(255, 255, 255);
   font-size: 30px;

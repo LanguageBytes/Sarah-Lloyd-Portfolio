@@ -373,7 +373,7 @@ a .github-link-ru {
   
   .flickity-button {
     position: absolute;
-    background: hsla(0, 0%, 100%, 0.75);
+    background: hsla(0, 0%, 0%, 0.75);
     border: none;
     color: #333;
   }
@@ -520,10 +520,10 @@ a .github-link-ru {
 }
 /* arrow color */
 .flickity-prev-next-button .arrow {
-  fill: white;
+  fill: rgb(0, 0, 0);
 }
 .flickity-prev-next-button.no-svg {
-  color: white;
+  color: rgb(0, 0, 0);
 }
 /* closer to edge */
 .flickity-prev-next-button.previous { left: 0; }

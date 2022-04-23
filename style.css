@@ -19,14 +19,14 @@ a.hero1{
     text-decoration: none;
     display: flex; 
     font-size: 30px;
-    color: rgb(255, 255, 255); 
+    color: rgb(254, 254, 255); 
     background-image: none;
 }
 
 a .footer{
     text-decoration: none;
     display: flex; 
-    color: rgb(248, 233, 205); 
+    color: rgb(255, 255, 255); 
 }
 
 /* Sections */
@@ -37,10 +37,10 @@ section {
 }
 
 .hero {
-    background-image: url("Images/low_poly_simple_mountain_landscape-wallpaper-1920x1080.jpg");
+    background-image: url("Images/Commscope6-DataCentre3.jpg");
     background-size: 100%;
     background-repeat: no-repeat;
-    color: rgb(243, 243, 243);
+    color: rgb(255, 255, 255);
     font-size: 30px;
 }
 
@@ -58,7 +58,7 @@ footer {
 nav {
     display: flex;
     justify-content: space-between;
-    color: rgb(4, 29, 46);
+    color: rgb(255, 255, 255);
 }
 
 ul {
@@ -73,9 +73,9 @@ ul {
 
 li.nav {
   width: 200px;
-  color: rgb(4, 29, 46);
-  font-family: caveat, sans-serif;
-  font-size: 30px;
+  color: rgb(241, 245, 248);
+  font-family: montserrat, sans-serif;
+  font-size: 20px;
 }
 
 /* Text Elements */
@@ -84,15 +84,15 @@ h1 {
     font-size: 70px;
     font-weight:600;
     margin-left: 20px;
-   color: rgb(196, 222, 240)
+   color: rgb(231, 224, 224)
 }
 
 h2 {
   font-size: 40px;
   justify-content: center;
   display: flex;
-  color: rgb(4, 29, 46);
-  font-family: caveat;
+  color: rgb(32, 32, 32);
+  font-family: montserrat;
 }
 
 h3 {
@@ -167,17 +167,17 @@ color:white;
     margin-left: 4%;
     margin-top: 5%;
     align-items: center;
-    width: 41%;
+    width: 50%;
     appearance: none;
-    background-image: radial-gradient(100% 100% at 80% 0, #b8ecf5 0, #eb666d 70%);
+    background-image: radial-gradient(100% 100% at 80% 0, #b8ecf5 0, #e4e0e0 70%);
     border: 0;
     border-radius: 8px;
-    box-shadow: rgb(253, 152, 68) 1px 0px 0px;
+    box-shadow: rgb(248, 248, 248) 1px 0px 0px;
     box-sizing: border-box;
-    color: rgb(32, 26, 26);
+    color: rgb(12, 12, 12);
     cursor: pointer;
     display: inline-flex;
-    font-family: caveat;
+    font-family: montserrat;
     height: 65px;
     justify-content: center;
     line-height: 1;
@@ -194,15 +194,16 @@ color:white;
     touch-action: manipulation;
     white-space: nowrap;
     will-change: box-shadow,transform;
-    font-size: 24px;
+    font-size: 20px;
+    font-weight: 400;
   }
   
   .btn:focus {
-    box-shadow: #082653 0 0 0 1.5px inset, rgba(45, 35, 66, .4) 0 2px 4px, rgba(45, 35, 66, .3) 0 7px 13px -3px, #3cace0 0 -3px 0 inset;
+    box-shadow: #000c1d 0 0 0 1.5px inset, rgba(45, 35, 66, .4) 0 2px 4px, rgba(45, 35, 66, .3) 0 7px 13px -3px, #c2e2f1 0 -3px 0 inset;
   }
   
   .btn:hover {
-    box-shadow: rgba(255, 255, 255, 0.4) 0 4px 8px, #237a9c 0 -3px 0 inset;
+    box-shadow: rgba(255, 255, 255, 0.4) 0 4px 8px, #e1e7e9 0 -3px 0 inset;
     transform: translateY(-2px);
   }
   
@@ -327,7 +328,7 @@ a .github-link-ru {
 }
 
 .contact-text {
-  color:rgb(241, 237, 229);;
+  color:rgb(255, 255, 255);;
 }
   
   /* Flickity (used for Carousel section) */
@@ -615,7 +616,7 @@ only screen and (min-device-pixel-ratio: 1.5){
 
 @media screen and ( max-width: 900px ) {
 .hero {
-  background-image: url("Images/low_poly_simple_mountain_landscape-wallpaper-1920x1080.jpg");
+  background-image: url("Images/Commscope6-DataCentre3.jpg");
   background-size: 300%;
   background-repeat: no-repeat;
   color: rgb(255, 255, 255);

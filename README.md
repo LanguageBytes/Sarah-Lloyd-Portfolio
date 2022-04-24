@@ -11,7 +11,7 @@ Link to deployed site: https://languagebytes.github.io/Sarah-Lloyd-Portfolio/
 ## <p align = "center"> Version 3 (April) </p>
 
 <p align = "center"> 
-<img src="Images/"/> 
+<img src="Images/Portfolio-Update-2022.gif"/> 
 </p>
 
 ## <p align = "center"> Version 2 (February) </p>

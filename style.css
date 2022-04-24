@@ -109,6 +109,13 @@ h4 {
     color:white;
 }
 
+h5 {
+  font-size: 20px;
+  text-align: center;
+  justify-content: center;
+  display: flex;
+  color: rgb(4, 29, 46);
+}
 
 p {
     font-weight: 100px;

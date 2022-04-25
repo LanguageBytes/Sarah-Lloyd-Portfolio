@@ -10,9 +10,15 @@ html, body {
     width: 100%;
 }
 
+
 a {
     text-decoration: none;
-    color:whitesmoke;
+    color: whitesmoke;
+}
+
+a.black-text {
+  color:#000000;
+  text-decoration: none;
 }
 
 a.hero1{
@@ -23,9 +29,8 @@ a.hero1{
     background-image: none;
 }
 
-a .footer{
+a.footer{
     text-decoration: none;
-    display: flex; 
     color: rgb(255, 255, 255); 
 }
 
@@ -218,7 +223,6 @@ color:white;
     box-shadow: #081d44 0 3px 7px inset;
     transform: translateY(2px);
   }
-
 
 
 /* Profile */
